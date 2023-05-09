@@ -8,7 +8,7 @@
 
 .home {
   background-color: $bg-color;
-  background-image: url(../../assets/images/bg.png);
+  background-image: url(../../assets/images/bg-desktop.png);
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,6 +40,12 @@
 
 /* MEDIA QUERIES  */
 @media only screen and (max-width: 768px) {
+  .content {
+    background-image: url(../../assets/images/bg-mobile.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .banner {
     padding: 40px 0 0 0;
   }
