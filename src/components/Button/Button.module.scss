@@ -1,0 +1,21 @@
+@import "../../assets/lib/index.scss";
+
+$width: 262px;
+$height: 61px;
+
+.button {
+  display: block;
+  background-color: $button-color;
+  max-width: $width;
+  height: $height;
+  padding: 21px 35px;
+  transition: 0.2s all ease-in;
+
+  &:hover {
+    background: darken($button-color, 3%);
+  }
+  
+  &:active {
+    transform: translateY(5px);
+  }
+}

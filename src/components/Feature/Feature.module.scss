@@ -1,0 +1,39 @@
+@import "../../assets/lib/index.scss";
+
+.title {
+  position: relative;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-lg;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  font-family: Inter;
+  letter-spacing: 0.05em;
+}
+
+.text {
+  font-family: $secondary-font-family;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-md;
+}
+
+/* MEDIA QUERIES  */
+@media only screen and (max-width: 768px) {
+  .title {
+    padding-left: 15px;
+    font-family: $secondary-font-family;
+    font-size: $font-size-xs;
+
+    &::before {
+      content: "";
+      width: 10px;
+      height: 1px;
+      background: $primary-gradient;
+      position: absolute;
+      top: 45%;
+      left: 0;
+    }
+  }
+  .text {
+    display: none;
+  }
+}

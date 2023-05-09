@@ -1,0 +1,83 @@
+@import "../../assets/lib/index.scss";
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 11px;
+  z-index: 1;
+}
+
+.logo {
+  margin-right: 52px;
+}
+
+.nav {
+  flex: 1 1 auto;
+  font-weight: $font-weight-medium;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  & .phoneNumber {
+    margin-right: 47px;
+  }
+
+  & .listItem {
+    &:not(:last-child) {
+      margin-right: 25px;
+    }
+  }
+}
+
+.contacts {
+  display: flex;
+  font-weight: $font-weight-medium;
+}
+
+/* MEDIA QUERIES  */
+@media only screen and (max-width: $container-width) {
+  .logo {
+    display: none;
+  }
+
+  .listItem {
+    &:last-child {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contacts {
+    display: none;
+  }
+
+  .header {
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-color;
+    font-size: $font-size-xs;
+  }
+
+  .nav {
+    flex-grow: 0;
+    text-transform: uppercase;
+  }
+
+  .list {
+    & .listItem {
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+  }
+}

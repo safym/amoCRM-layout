@@ -1,0 +1,9 @@
+@import "../../assets/lib/index.scss";
+
+.colorfulSpan {
+  font-weight: $font-weight-black;
+  background: $primary-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

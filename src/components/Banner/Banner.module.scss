@@ -1,0 +1,87 @@
+@import "../../assets/lib/index.scss";
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainTitle {
+  margin-bottom: 40px;
+}
+
+.rightColumn {
+  max-width: 300px;
+  padding-top: 15px;
+  text-align: end;
+}
+
+.featureTitle {
+  margin-bottom: 40px;
+}
+
+.features {
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 65px);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-areas:
+    "widget dashboard"
+    "audit days";
+
+  .widget {
+    grid-area: widget;
+  }
+
+  .audit {
+    grid-area: audit;
+  }
+
+  .dashboard {
+    grid-area: dashboard;
+  }
+
+  .days {
+    grid-area: days;
+  }
+}
+
+.button {
+  margin-left: auto;
+}
+
+/* MEDIA QUERIES  */
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainTitle {
+    font-size: $font-size-xl;
+  }
+
+  .leftColumn {
+    margin-bottom: 45px;
+  }
+
+  .rightColumn {
+    max-width: 100%;
+    text-align: start;
+  }
+
+  .features {
+    row-gap: 15px;
+    grid-template-rows: repeat(2, 16px);
+  }
+
+  .button {
+    display: none;
+  }
+}

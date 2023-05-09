@@ -1,0 +1,38 @@
+$container-width: 1140px;
+$container-offset: 15px;
+
+/* font size */
+$font-size-xxxs: 10px;
+$font-size-xxs: 12px;
+$font-size-xs: 13px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 36px;
+$font-size-xxl: 48px;
+
+/* font weight */
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+/* font family */
+$primary-font-family: "Inter", sans-serif;
+$secondary-font-family: "Montserrat", sans-serif;
+// primary font variables
+$primary-font-size: $font-size-md;
+$primary-font-weight: $font-weight-regular;
+
+/* color variables */
+$desktop: #0E1014;
+$red-light: #961a1a;
+$button-color: #4077f3;
+$bg-color: #1E1E1E;
+$text-color: #e4e5ea;
+$color-yellow: #fcb045;
+$color-red: #ff3f78;
+$color-grey: #656566;
+
+$primary-gradient: linear-gradient(92deg, $color-yellow 27.14%, $color-red 121.36%), hsl(230, 12%, 91%);

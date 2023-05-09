@@ -1,0 +1,46 @@
+@import "../../assets/lib/index.scss";
+
+._container {
+  padding-left: $container-offset;
+  padding-right: $container-offset;
+  box-sizing: content-box;
+}
+
+.home {
+  background-color: $bg-color;
+  background-image: url(../../assets/images/bg.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  padding-top: 46px;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+.banner {
+  padding: 94px 0 0px 0;
+}
+
+/* MEDIA QUERIES  */
+@media only screen and (max-width: 768px) {
+  .banner {
+    padding: 40px 0 0 0;
+  }
+}

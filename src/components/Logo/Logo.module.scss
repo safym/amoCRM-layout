@@ -1,0 +1,17 @@
+@import "../../assets/lib/index.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-family: $secondary-font-family;
+  font-weight: $font-weight-light;
+  font-size: $font-size-xxxs;
+  line-height: $font-size-xxxs + 2px;
+}

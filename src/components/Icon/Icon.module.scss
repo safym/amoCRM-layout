@@ -1,0 +1,11 @@
+@import "../../assets/lib/index.scss";
+
+.icon {
+  min-width: 20px;
+  min-height: 20px;
+
+  &:hover path {
+    transition: all 0.2s ease-in;
+    fill: $color-yellow;
+  }
+}
