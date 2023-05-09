@@ -36,7 +36,7 @@ Live link: [Demo](https://safym.github.io/amocrm-layout/)
 * Flexbox
 * Grid
 
-## 🛠 Команды
+## 🛠 Commands
 
 Run app:
 
