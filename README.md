@@ -20,8 +20,8 @@ Live link: [Demo](https://safym.github.io/amocrm-layout/)
 
 ### 🖥️ Desktop / 📱 Mobile
 <p align="center">
-    <img height="300px" src="https://user-images.githubusercontent.com/99616798/236981035-ef792c40-3a93-4b23-b605-08d3b78627f6.png" />
-    <img height="300px" src="https://user-images.githubusercontent.com/99616798/236980925-8f8404a2-6572-44d6-bec0-fb5882bdf604.png" />
+    <img height="350px" src="https://user-images.githubusercontent.com/99616798/236981035-ef792c40-3a93-4b23-b605-08d3b78627f6.png" />
+    <img height="350px" src="https://user-images.githubusercontent.com/99616798/236980925-8f8404a2-6572-44d6-bec0-fb5882bdf604.png" />
  </p>
 
 
