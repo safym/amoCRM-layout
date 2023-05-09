@@ -35,3 +35,17 @@ Live link: [Demo](https://safym.github.io/amocrm-layout/)
 * SCSS
 * Flexbox
 * Grid
+
+## 🛠 Команды
+
+Run app:
+
+```bash
+npm run dev
+```
+
+Build:
+
+```bash
+npm run build
+```
